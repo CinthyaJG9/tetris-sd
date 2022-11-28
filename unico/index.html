@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tetris-solito</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrap">
+        <div class="local">
+          <div class="game" id="local_game"></div>
+          <div class="next" id="local_next"></div>
+          <div class="info">
+            <div>Costo de tiempo: <span id="local_time">0</span>s</div>
+            <div>Puntaje: <span id="local_score">0</span> Minuto </div>
+            <div id="local_gameover"></div>
+          </div>
+        </div>
+      </div>
+      <div class="tips">
+        <p>Utilice las teclas de flecha para operar el juego.</p>
+        <p>&uarr; girar, &larr; cambiar a la izquierda,&rarr; mover a la derecha,&darr; moverse hacia abajo, caída espacial</p>
+        <p><a href="../index.html">seleccionar versión</a></p>
+      </div>
+    
+      <script src="js/cuadrado.js"></script>
+      <script src="js/cuadradoFactory.js"></script>
+      <script src="js/juego.js"></script>
+      <script src="js/local.js"></script>
+      <script src="js/script.js"></script>
+</body>
+</html>
